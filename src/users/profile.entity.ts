@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('user_profile')

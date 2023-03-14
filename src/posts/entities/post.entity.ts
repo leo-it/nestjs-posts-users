@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 import { User } from 'src/users/user.entity';
@@ -6,8 +8,10 @@ import { User } from 'src/users/user.entity';
 export class Post {
   @PrimaryGeneratedColumn()
   id: number;
+
   @Column()
   title: string;
+  
   @Column()
   content: string;
 
